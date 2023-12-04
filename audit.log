@@ -1,0 +1,33 @@
+t=2023-12-04T10:52:33+0600 lvl=info msg=Configured api=signer "audit log"=audit.log
+t=2023-12-04T10:53:27+0600 lvl=info msg=Version    api=signer type=request metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"
+t=2023-12-04T10:53:27+0600 lvl=info msg=Version    api=signer type=response data=6.1.0 error=nil
+t=2023-12-04T10:54:16+0600 lvl=info msg=List       api=signer type=request  metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"
+t=2023-12-04T10:54:29+0600 lvl=info msg=List       api=signer type=response data=[0x1585917171590cA54D324D047c7B9c5ac6a6a589]
+t=2023-12-04T10:54:29+0600 lvl=info msg=SignTransaction api=signer type=request  metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}" tx="{\"from\":\"0x1585917171590cA54D324D047c7B9c5ac6a6a589\",\"to\":\"0x528EA91FA33F1C194E176929F22Adda8e4687d82\",\"gas\":\"0x5208\",\"gasPrice\":null,\"maxFeePerGas\":\"0xb2d05e00\",\"maxPriorityFeePerGas\":\"0x3b9aca00\",\"value\":\"0x4563918244f40000\",\"nonce\":\"0x5\",\"data\":\"0x\",\"accessList\":[],\"chainId\":\"0x3039\"}" methodSelector=<nil>
+t=2023-12-04T10:54:33+0600 lvl=info msg=SignTransaction api=signer type=response data=<nil> error="could not decrypt key with given password"
+t=2023-12-04T10:58:47+0600 lvl=info msg=Configured api=signer "audit log"=audit.log
+t=2023-12-04T11:02:00+0600 lvl=info msg=Version    api=signer type=request metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"
+t=2023-12-04T11:02:00+0600 lvl=info msg=Version    api=signer type=response data=6.1.0 error=nil
+t=2023-12-04T11:02:06+0600 lvl=info msg=List       api=signer type=request  metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"
+t=2023-12-04T11:02:15+0600 lvl=info msg=List       api=signer type=response data=[0x1585917171590cA54D324D047c7B9c5ac6a6a589]
+t=2023-12-04T11:02:33+0600 lvl=info msg=List       api=signer type=request  metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"
+t=2023-12-04T11:02:37+0600 lvl=info msg=List       api=signer type=response data=[0x1585917171590cA54D324D047c7B9c5ac6a6a589]
+t=2023-12-04T11:02:37+0600 lvl=info msg=SignTransaction api=signer type=request  metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}" tx="{\"from\":\"0x1585917171590cA54D324D047c7B9c5ac6a6a589\",\"to\":\"0x528EA91FA33F1C194E176929F22Adda8e4687d82\",\"gas\":\"0x5208\",\"gasPrice\":null,\"maxFeePerGas\":\"0xb2d05e00\",\"maxPriorityFeePerGas\":\"0x3b9aca00\",\"value\":\"0x4563918244f40000\",\"nonce\":\"0x5\",\"data\":\"0x\",\"accessList\":[],\"chainId\":\"0x3039\"}" methodSelector=<nil>
+t=2023-12-04T11:02:39+0600 lvl=info msg=SignTransaction api=signer type=response data=<nil> error="could not decrypt key with given password"
+t=2023-12-04T11:03:16+0600 lvl=info msg=Version         api=signer type=request  metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"
+t=2023-12-04T11:03:16+0600 lvl=info msg=Version         api=signer type=response data=6.1.0 error=nil
+t=2023-12-04T11:03:25+0600 lvl=info msg=List            api=signer type=request  metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"
+t=2023-12-04T11:03:28+0600 lvl=info msg=List            api=signer type=response data=[0x1585917171590cA54D324D047c7B9c5ac6a6a589]
+t=2023-12-04T11:03:42+0600 lvl=info msg=List            api=signer type=request  metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"
+t=2023-12-04T11:03:47+0600 lvl=info msg=List            api=signer type=response data=[0x1585917171590cA54D324D047c7B9c5ac6a6a589]
+t=2023-12-04T11:03:47+0600 lvl=info msg=SignTransaction api=signer type=request  metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}" tx="{\"from\":\"0x1585917171590cA54D324D047c7B9c5ac6a6a589\",\"to\":\"0x528EA91FA33F1C194E176929F22Adda8e4687d82\",\"gas\":\"0x5208\",\"gasPrice\":null,\"maxFeePerGas\":\"0xb2d05e00\",\"maxPriorityFeePerGas\":\"0x3b9aca00\",\"value\":\"0x4563918244f40000\",\"nonce\":\"0x5\",\"data\":\"0x\",\"accessList\":[],\"chainId\":\"0x3039\"}" methodSelector=<nil>
+t=2023-12-04T11:03:52+0600 lvl=info msg=SignTransaction api=signer type=response data=<nil> error="could not decrypt key with given password"
+t=2023-12-04T11:06:25+0600 lvl=info msg=Configured api=signer "audit log"=audit.log
+t=2023-12-04T11:07:05+0600 lvl=info msg=Version    api=signer type=request metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"
+t=2023-12-04T11:07:05+0600 lvl=info msg=Version    api=signer type=response data=6.1.0 error=nil
+t=2023-12-04T11:07:12+0600 lvl=info msg=List       api=signer type=request  metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"
+t=2023-12-04T11:07:15+0600 lvl=info msg=List       api=signer type=response data=[0x1585917171590cA54D324D047c7B9c5ac6a6a589]
+t=2023-12-04T11:07:38+0600 lvl=info msg=List       api=signer type=request  metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"
+t=2023-12-04T11:07:47+0600 lvl=info msg=List       api=signer type=response data=[0x1585917171590cA54D324D047c7B9c5ac6a6a589]
+t=2023-12-04T11:07:47+0600 lvl=info msg=SignTransaction api=signer type=request  metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}" tx="{\"from\":\"0x1585917171590cA54D324D047c7B9c5ac6a6a589\",\"to\":\"0x528EA91FA33F1C194E176929F22Adda8e4687d82\",\"gas\":\"0x5208\",\"gasPrice\":null,\"maxFeePerGas\":\"0xb2d05e00\",\"maxPriorityFeePerGas\":\"0x3b9aca00\",\"value\":\"0x4563918244f40000\",\"nonce\":\"0x5\",\"data\":\"0x\",\"accessList\":[],\"chainId\":\"0x3039\"}" methodSelector=<nil>
+t=2023-12-04T11:07:49+0600 lvl=info msg=SignTransaction api=signer type=response data=<nil> error="could not decrypt key with given password"

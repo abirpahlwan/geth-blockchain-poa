@@ -1,37 +1,35 @@
-=============== Dec 2, 2023 (+06) ===============
-02:09:45.515759 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
-02:09:45.524252 db@open opening
-02:09:45.525165 version@stat F·[] S·0B[] Sc·[]
-02:09:45.528040 db@janitor F·2 G·0
-02:09:45.528100 db@open done T·3.8034ms
-02:16:17.986391 db@close closing
-02:16:17.986533 db@close done T·142.4µs
-=============== Dec 2, 2023 (+06) ===============
-02:16:21.200639 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
-02:16:21.200815 version@stat F·[] S·0B[] Sc·[]
-02:16:21.200860 db@open opening
-02:16:21.200893 journal@recovery F·1
-02:16:21.201413 journal@recovery recovering @1
-02:16:21.204868 memdb@flush created L0@2 N·191 S·2KiB "loc..seq,v2":"version,v1"
-02:16:21.205780 version@stat F·[1] S·2KiB[2KiB] Sc·[0.25]
-02:16:21.215757 db@janitor F·3 G·0
-02:16:21.215808 db@open done T·14.939601ms
-02:18:20.973295 db@close closing
-02:18:20.973405 db@close done T·110.2µs
-=============== Dec 2, 2023 (+06) ===============
-02:26:20.178948 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
-02:26:20.179096 version@stat F·[1] S·2KiB[2KiB] Sc·[0.25]
-02:26:20.179180 db@open opening
-02:26:20.179266 journal@recovery F·1
-02:26:20.179721 journal@recovery recovering @3
-02:26:20.183942 memdb@flush created L0@5 N·70 S·1KiB "loc..seq,v193":"n:\f..ong,v194"
-02:26:20.185755 version@stat F·[2] S·3KiB[3KiB] Sc·[0.50]
-02:26:20.195289 db@janitor F·4 G·0
-02:26:20.195337 db@open done T·16.1332ms
-02:26:20.197596 table@compaction L0·2 -> L1·0 S·3KiB Q·264
-02:26:20.204631 table@build created L1@8 N·12 S·613B "loc..seq,v193":"version,v1"
-02:26:20.204728 version@stat F·[0 1] S·613B[0B 613B] Sc·[0.00 0.00]
-02:26:20.207467 table@compaction committed F-1 S-2KiB Ke·0 D·249 T·9.8178ms
-02:26:20.207786 table@remove removed @2
-02:59:16.179464 db@close closing
-02:59:16.179640 db@close done T·175.3µs
+=============== Dec 4, 2023 (+06) ===============
+15:39:21.923349 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:39:21.950123 db@open opening
+15:39:21.950589 version@stat F·[] S·0B[] Sc·[]
+15:39:21.960344 db@janitor F·2 G·0
+15:39:21.960384 db@open done T·10.235167ms
+15:48:24.449061 db@close closing
+15:48:24.449382 db@close done T·316.333µs
+=============== Dec 4, 2023 (+06) ===============
+15:52:15.533079 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:52:15.533213 version@stat F·[] S·0B[] Sc·[]
+15:52:15.533227 db@open opening
+15:52:15.533258 journal@recovery F·1
+15:52:15.533544 journal@recovery recovering @1
+15:52:15.541850 memdb@flush created L0@2 N·3624 S·92KiB "loc..seq,v29":"version,v1"
+15:52:15.542447 version@stat F·[1] S·92KiB[92KiB] Sc·[0.25]
+15:52:15.563931 db@janitor F·3 G·0
+15:52:15.563956 db@open done T·30.722084ms
+=============== Dec 4, 2023 (+06) ===============
+15:56:01.324440 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:56:01.324822 version@stat F·[1] S·92KiB[92KiB] Sc·[0.25]
+15:56:01.324838 db@open opening
+15:56:01.324872 journal@recovery F·1
+15:56:01.325148 journal@recovery recovering @3
+15:56:01.331282 memdb@flush created L0@5 N·839 S·25KiB "loc..seq,v3648":"n:\xfd..ong,v3710"
+15:56:01.331824 version@stat F·[2] S·117KiB[117KiB] Sc·[0.50]
+15:56:01.352634 db@janitor F·4 G·0
+15:56:01.352662 db@open done T·27.81725ms
+15:56:01.357507 table@compaction L0·2 -> L1·0 S·117KiB Q·4465
+15:56:01.364048 table@build created L1@8 N·2762 S·96KiB "loc..seq,v3648":"version,v1"
+15:56:01.364102 version@stat F·[0 1] S·96KiB[0B 96KiB] Sc·[0.00 0.00]
+15:56:01.374084 table@compaction committed F-1 S-20KiB Ke·0 D·1701 T·16.53875ms
+15:56:01.375393 table@remove removed @2
+15:56:20.443002 db@close closing
+15:56:20.443162 db@close done T·159.542µs
